@@ -200,6 +200,8 @@ class ToDoTableViewController: SwipeTableViewController {
         
         self.context.delete(items[indexPath.row])
         
+        self.saveItem()
+        
         items.remove(at: indexPath.row)
         
         present(alertCategoryDeleted, animated: true) {

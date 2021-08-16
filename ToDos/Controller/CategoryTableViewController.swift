@@ -170,6 +170,8 @@ class CategoryTableViewController: SwipeTableViewController {
         
         self.context.delete(categories[indexPath.row])
         
+        self.saveCategory()
+        
         categories.remove(at: indexPath.row)
         
         present(alertCategoryDeleted, animated: true) {
@@ -178,6 +180,7 @@ class CategoryTableViewController: SwipeTableViewController {
             alertCategoryDeleted.dismiss(animated: true, completion: nil)
             
         }
+        
     }
 }
 
