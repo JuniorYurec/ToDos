@@ -18,7 +18,7 @@
 		90F1E7092670047800138C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F1E7082670047800138C04 /* Assets.xcassets */; };
 		90F1E70C2670047800138C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F1E70A2670047800138C04 /* LaunchScreen.storyboard */; };
 		90F1E7172670047800138C04 /* ToDosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E7162670047800138C04 /* ToDosTests.swift */; };
-		90F1E7222670047800138C04 /* ToDosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E7212670047800138C04 /* ToDosUITests.swift */; };
+		90F1E7222670047800138C04 /* ToDosCategoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E7212670047800138C04 /* ToDosCategoryUITests.swift */; };
 		90F1E73426707F2800138C04 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E73226707F2800138C04 /* DataModel.xcdatamodeld */; };
 		96005C9904D0613FED582652 /* Pods_ToDos_ToDosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1066CB6BB5E0B522F1D3F1C /* Pods_ToDos_ToDosUITests.framework */; };
 /* End PBXBuildFile section */
@@ -59,7 +59,7 @@
 		90F1E7162670047800138C04 /* ToDosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosTests.swift; sourceTree = "<group>"; };
 		90F1E7182670047800138C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F1E71D2670047800138C04 /* ToDosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90F1E7212670047800138C04 /* ToDosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosUITests.swift; sourceTree = "<group>"; };
+		90F1E7212670047800138C04 /* ToDosCategoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosCategoryUITests.swift; sourceTree = "<group>"; };
 		90F1E7232670047800138C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F1E73326707F2800138C04 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		91308274F85CAEC126B027DE /* Pods-ToDos-ToDosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDos-ToDosUITests.release.xcconfig"; path = "Target Support Files/Pods-ToDos-ToDosUITests/Pods-ToDos-ToDosUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		90F1E7202670047800138C04 /* ToDosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				90F1E7212670047800138C04 /* ToDosUITests.swift */,
+				90F1E7212670047800138C04 /* ToDosCategoryUITests.swift */,
 				90F1E7232670047800138C04 /* Info.plist */,
 			);
 			path = ToDosUITests;
@@ -460,7 +460,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F1E7222670047800138C04 /* ToDosUITests.swift in Sources */,
+				90F1E7222670047800138C04 /* ToDosCategoryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
