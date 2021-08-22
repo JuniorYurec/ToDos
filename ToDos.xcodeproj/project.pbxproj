@@ -12,6 +12,7 @@
 		9035410D2676932200CF4419 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9035410C2676932200CF4419 /* SwipeTableViewController.swift */; };
 		903541132676A30D00CF4419 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903541122676A30D00CF4419 /* CategoryTableViewController.swift */; };
 		90354115267B149900CF4419 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90354114267B149900CF4419 /* ToDoTableViewController.swift */; };
+		905B5A4926D0B59700FCAEE6 /* ToDosItemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905B5A4826D0B59700FCAEE6 /* ToDosItemsUITests.swift */; };
 		90F1E6FD2670047500138C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E6FC2670047500138C04 /* AppDelegate.swift */; };
 		90F1E6FF2670047500138C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1E6FE2670047500138C04 /* SceneDelegate.swift */; };
 		90F1E7042670047500138C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F1E7022670047500138C04 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		9035410C2676932200CF4419 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		903541122676A30D00CF4419 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 		90354114267B149900CF4419 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		905B5A4826D0B59700FCAEE6 /* ToDosItemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDosItemsUITests.swift; sourceTree = "<group>"; };
 		90F1E6F92670047500138C04 /* ToDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F1E6FC2670047500138C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90F1E6FE2670047500138C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				90F1E7212670047800138C04 /* ToDosCategoryUITests.swift */,
+				905B5A4826D0B59700FCAEE6 /* ToDosItemsUITests.swift */,
 				90F1E7232670047800138C04 /* Info.plist */,
 			);
 			path = ToDosUITests;
@@ -460,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905B5A4926D0B59700FCAEE6 /* ToDosItemsUITests.swift in Sources */,
 				90F1E7222670047800138C04 /* ToDosCategoryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
